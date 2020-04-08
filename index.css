@@ -1,0 +1,27 @@
+path:hover{
+    fill-opacity: 0.7;
+    cursor: pointer;
+}
+
+.column-center {
+    align-self: center;
+}
+
+.chip-input {
+    border: none;
+}
+
+.sticky-header {
+    position: relative;
+}
+
+.sticky-header th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    z-index:2; /* chips were overlapping */
+
+    border-bottom-width: 0; /* spectre was causing problems on safari */
+    box-shadow: 0 2px 0px 0px rgba(0, 0, 0, 0.4)
+}
