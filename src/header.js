@@ -18,6 +18,7 @@ export const header = html`
             <a
               href="https://github.com/ghulamghousdev/coronavirus-dashboard"
               class="btn btn-link text-light"
+              target="_blank"
               >GitHub</a
             >
           </section>
