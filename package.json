@@ -37,7 +37,7 @@
     "parcel": "2.0.0-alpha.3.2",
     "prettier": "1.19.1",
     "pretty": "2.0.0",
-    "snowpack": "1.6.0",
+    "snowpack": "^1.6.0",
     "tap-diff": "0.1.1",
     "tape": "4.13.2"
   }
